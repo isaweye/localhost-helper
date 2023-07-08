@@ -1,3 +1,5 @@
+> *PlugManX is required for the plugin to work.*
+
 ```yaml
 reload:
   # {name} {path} {child}
