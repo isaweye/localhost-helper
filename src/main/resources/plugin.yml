@@ -1,0 +1,14 @@
+name: LocalhostHelper
+version: '${project.version}'
+main: uk.mqchinee.localhosthelper.LocalhostHelper
+api-version: 1.18
+depend:
+  - PlugManX
+
+permissions:
+  localhosthelper.reload:
+    default: op
+
+commands:
+  copy:
+    permission: localhosthelper.reload
